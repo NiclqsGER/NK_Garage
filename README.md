@@ -21,7 +21,7 @@ Happy coding!
 https://streamable.com/pvbm6f
 
 ## Author(s) & Contributor(s)
-(A) [@PzH-2000](https://github.com/PzH-2000)
+(A) [@NiclqsGER](https://github.com/NiclqsGER)
 
 ## Disclaimer
 Before any statements or reports are made, it is important to clarify certain aspects of this project.
