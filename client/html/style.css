@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    background: none !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.app {
+    display: block;
+}
+
+.left-container {
+    background-color: rgba(0, 0, 0, 0.65);
+    width: 370px;
+    height: 570px;
+    border-radius: 5px;
+}
+
+.title-container {
+    height: 210px;
+    width: 100%;
+}
+
+.title-container > .top {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container > .top > .circle {
+    height: 110px;
+    width: 110px;
+    border-radius: 90px;
+    background-color: rgba(15, 15, 15, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container > .bottom {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container > .bottom > #title {
+    font-size: 26px;
+}
+
+#image {
+    width: 55px;
+    height: 55px;
+}
+
+.right-container {
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0.65);
+    width: 800px;
+    height: 570px;
+    border-radius: 5px;
+}
+
+.right-container > .top {
+    height: 75px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.header {
+    height: 73px;
+    color: whitesmoke;
+}
+
+.currentPage {
+    font-size: 24px;
+    padding: 20px 15px 20px 0px;
+}
+
+.quitButton {
+    padding: 20px 15px 20px 0px;
+}
+
+#close {
+    text-decoration: none;
+}
+
+.action-container {
+    height: 55px;
+    width: 100%;
+    color: #8b918f;
+    font-size: 16px;
+    padding: 19.5px 0px 19.5px 20px;
+}
+
+.select-container {
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    padding: 9.5px 0px 9.5px 20px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.active {
+    height: 50px;
+    font-size: 20px;
+    padding: 9.5px 0px 9.5px 20px;
+    padding-left: 15px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.search-container {
+    height: 75px; 
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.search-container > #search {
+    padding: 7.5px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: none;
+    color: rgb(252, 250, 250);
+    font-size: 14px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.button {
+    height: 100px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: none;
+    color: whitesmoke;
+}
+
+.sql-row-container {
+    width: 100%;
+    padding: 15px 0px 15px 15px;
+    height: 490px;
+}
+
+.row-content {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+input[type="text"] { 
+    outline: none;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.button:focus {
+    outline: none; 
+    border: none;
+}
+
+/* ---- */
+.row-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 12.5px;
+}
+
+.car-container {
+    height: 80px;
+    width: 240px;
+    background-color: rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    display: flex;
+    padding: 1px;
+}
+
+.selected-vehicle {
+    border: 0.5px solid #8b918f;
+    padding: 0px;
+}
+
+.picture {
+    height: 80px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.info {
+    width: 160px;
+    height: 40px;
+    margin-top: 20px;
+    color: whitesmoke;
+}
+
+.rename-a {
+    width: 100vw; 
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.rename-window {
+    width: 500px; 
+    height: 160px; 
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+
+.rename-window > .title {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    font-size: 25px;
+    color: white;
+    border-bottom: 1px solid lightgray;
+    outline: none;
+}
+
+.input-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+}
+
+.input-container > input {
+    outline: none;
+    background: none;
+    font-size: 20px;
+    color: lightgray;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.151);
+}
+
+.button-container {
+    width: 100%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.renameButton {
+    outline: none; 
+    border: none;
+    border-radius: 2px;
+    color: lightgray;
+}
+
+/* .renameButton a {
+    color: white;
+} */
+
+.renameButton:focus {
+    outline: none; 
+    border: none;
+}
+
+.renameButton:hover {
+    outline: none; 
+    border: none;
+    background-color: rgba(0, 0, 0, 0.75);
+}
